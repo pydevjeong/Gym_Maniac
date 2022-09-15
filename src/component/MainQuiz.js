@@ -2,8 +2,8 @@ import React from "react";
 import { useState } from "react";
 import { questions } from "../db/questions";
 import Button from 'react-bootstrap/Button'
-import Container from "react-bootstrap/esm/Container";
-import './temp.css'
+import './Quiz.css'
+
 
 
 function MainQuiz(props){
@@ -20,31 +20,26 @@ function MainQuiz(props){
     } 
   };
   return(
-  <Container>
-    <h1>hi</h1>
-     {showScore ? (
-        <section className="showScore-section">
-          당신의 점수는 {scoreStack} 입니다
-        </section>
-      ) : (
-        <>
-          <section className="question-section">
+  <div className="container-fluid text-center" id="container">
+      <h1>점수가 합산되어서 결과가 나옵니다</h1>
+      <div className="mainQuiz">
+        <div className="split">
+          <div className="question">
             <h1>
               Question {currentQuestion +1}/{questions.length}
             </h1>
             <p>{questions[currentQuestion].questionText}</p>
-          </section>
-
-          <section className="answer-section">
+          </div>
+          <div className="answer">
             {questions[currentQuestion].answerOptions.map((item,idx) => (
-              <Button className="btn-class" variant="info" size="lg" key={idx} onClick={() => handleClick(item.addPoint)}>
-                {item.answerText}
-              </Button>
+              <button className="ansBtn" key={idx} onClick={() => handleClick(item.addPoint)}>
+                <p>{item.answerText}</p>
+              </button>
             ))}
-          </section>
-        </>
-      )} 
-  </Container>
+          </div>
+          </div>
+      </div>
+  </div>  
   )
 }
 

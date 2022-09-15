@@ -3,10 +3,10 @@ export const questions = [
     number:1,
     questionText: "주 몇 회 운동하는가?",
     answerOptions: [
-      { answerText: "0~2회", addPoint:1 },
-      { answerText: "3회", addPoint:2 },
-      { answerText: "4~5회", addPoint:3 },
-      { answerText: "6~7회", addPoint:4 },
+      { answerText: "0~2 회", addPoint:1 },
+      { answerText: "3 회", addPoint:2 },
+      { answerText: "4~5 회", addPoint:3 },
+      { answerText: "6~7 회", addPoint:4 },
     ]
   },
   {
@@ -26,8 +26,7 @@ export const questions = [
       { answerText: "마름 / 뚱뚱함", addPoint:1 },
       { answerText: "표준", addPoint:2 },
       { answerText: "근육 크기가 적당하고 체지방도 13%이하", addPoint:3 },
-      { answerText: "근육이 크고 체지방도 13%이하", addPoint:4 },
-      { answerText: "선수급", addPoint:5 },
+      { answerText: "근육 크기 비례 체지방이 현저히 낮음", addPoint:4 },
     ]
   },
   {

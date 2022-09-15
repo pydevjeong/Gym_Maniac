@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+
+#container{
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  font-family: 'Jua', sans-serif;
+  font-size: 3.5vw;
+}
+/* .split{
+
+} */
+.mainQuiz{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin: 15px;
+  vertical-align: middle;
+  border: 0px;
+
+}
+.question h1{
+  color: rgb(0, 0, 0);
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin: 12;
+}
+.question p{
+  color: rgb(221, 118, 21);
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin: 12;
+}
+.answer{
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin: 12;
+}
+.ansBtn{
+  margin: 2px;
+  background-color: black;
+  color: #fff;
+  border: none;
+  border-radius: 15px;
+}
+.ansBtn p{
+  margin: 10px;
+  font-size:1.2rem;
+  display: flex;
+}
