@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
+
+
+.container{
+
+}
+.quiz_title{
+  
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 30vh;
+  font-family: 'Black Han Sans', sans-serif;
+  font-size: 3vw;
+}
+
+.mainPage{
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  background-repeat: no-repeat;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.data{
+  display: block;
+}
+.chicken{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin: 15;
+  vertical-align: middle;
+  border: 0;
+}
+.name{
+  font-size: 3rem;
+    color: rgb(59, 19, 204);
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-family: 'Black Han Sans', sans-serif;
+    margin: 12;
+}
+.linkBox{
+  display: flex;
+  background: #36383d;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #4286f4, #f2f6ff);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #4286f4, rgb(92, 92, 91)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border-radius: 40px;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Black Han Sans', sans-serif;
+}
+.linked{
+  font-size: 30px;
+  color: #fff;
+  text-decoration: none;
+}
+.linked:hover{
+  color: crimson;
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+   -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+       transform: scale(1.05);  
+}
+.linked {
+  -webkit-transition: all 0.1s linear;
+          transition: all 0.1s linear;
+}

@@ -8,10 +8,11 @@ import MainQuiz from './component/MainQuiz';
 function App() {
   return (
     <div>
-      <Header/>
-      <MainQuiz/>
+      {/* <Header/> */}
+      <Main/>
+      {/* <MainQuiz/> */}
       {/* 퀴즈를 다풀면 다른페이지로 가서 점수와 등급보여주기 */}
-      <Footer/>
+      {/* <Footer/> */}
     </div>
   );
 }
