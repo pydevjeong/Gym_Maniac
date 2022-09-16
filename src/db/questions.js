@@ -30,7 +30,7 @@ export const questions = [
     ]
   },
   {
-    number:1,
+    number:4,
     questionText: "다이어트를 성공했는가?",
     answerOptions: [
       { answerText: "20%", addPoint:1 },
@@ -40,7 +40,7 @@ export const questions = [
     ]
   },
   {
-    number:4,
+    number:5,
     questionText: "닭을 얼마나 먹었는가?",
     answerOptions: [
       { answerText: "대략 셀수있음", addPoint:1 },
@@ -50,7 +50,7 @@ export const questions = [
     ]
   },
   {
-    number:5,
+    number:6,
     questionText: "스쿼트 중량 (자기 체중 비례입니다)",
     answerOptions: [
       { answerText: "몸무게만큼", addPoint:1 },
@@ -60,7 +60,7 @@ export const questions = [
     ]
   },
   {
-    number:6,
+    number:7,
     questionText: "턱걸이 갯수(등으로 당기는 정확한 자세 기준 )",
     answerOptions: [
       { answerText: "0개~2개", addPoint:1 },

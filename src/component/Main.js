@@ -17,7 +17,7 @@ function Main(props) {
                 <p className={styles.name}>Gym-Maniac</p>
               </div>
               <div className={styles.linkBox}>
-                <Link className={styles.linked} to="mainQuiz">시작하기</Link>
+                <Link className={styles.linked} to="/mainQuiz">시작하기</Link>
               </div>
           </div>
         </div>

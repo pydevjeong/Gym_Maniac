@@ -1,0 +1,35 @@
+.skele{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.noneStyle{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.goHome{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2vw;
+}
+.linked{
+  font-size: 30px;
+  color: rgb(42, 32, 139);
+  text-decoration: none;
+}
+.linked:hover{
+  color: crimson;
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+   -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+       transform: scale(1.05);  
+}
+.linked {
+  -webkit-transition: all 0.1s linear;
+  transition: all 0.1s linear;
+}

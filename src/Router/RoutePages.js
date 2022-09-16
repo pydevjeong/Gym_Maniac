@@ -1,8 +1,9 @@
 import React from "react";
 import {BrowserRouter as Router,Route,Routes} from "react-router-dom"
+
 import Main from "../component/Main";
 import MainQuiz from "../component/MainQuiz";
-import ResultPage from "../component/ResultPaeg";
+import ResultPage from "../component/ResultPage";
 
 function RoutePages(){
   return(
@@ -11,6 +12,7 @@ function RoutePages(){
         <Route exact path="/" element={<Main/>}/>
         <Route exact path="mainQuiz" element={<MainQuiz/>}/>
         <Route exact path="result" element={<ResultPage/>}/>
+        
       </Routes>
     </Router>
   )

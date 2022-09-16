@@ -7,7 +7,8 @@ import {createBrowserRouter,RouterProvider,Route} from 'react-router-dom'
 import Main from './component/Main';
 import ErrorPage from './error-page';
 import MainQuiz from './component/MainQuiz';
-import ResultPage from './component/ResultPaeg';
+import ResultPage from './component/ResultPage';
+
 
 const router=createBrowserRouter([
   {
@@ -24,7 +25,7 @@ const router=createBrowserRouter([
     path:"result",
     element:<ResultPage/>,
     errorElement:<ErrorPage/>
-  }
+  },
 ])
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
