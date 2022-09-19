@@ -68,6 +68,66 @@ export const questions = [
       { answerText: "6~10개", addPoint:3 },
       { answerText: "11~ ?? 까지..", addPoint:4 },
     ]
+  },  
+  {
+    number:8,
+    questionText: "직장을 다니면서 주 몇회 헬스를 하는가?",
+    answerOptions: [
+      { answerText: "0~1회", addPoint:1 },
+      { answerText: "3~5개", addPoint:2 },
+      { answerText: "6~10개", addPoint:3 },
+      { answerText: "11~ ?? 까지..", addPoint:4 },
+    ]
+  },
+    {
+    number:9,
+    questionText: "헬스용품이 얼마나 있는가?",
+    answerOptions: [
+      { answerText: "0개~2개", addPoint:1 },
+      { answerText: "3~5개", addPoint:2 },
+      { answerText: "6~10개", addPoint:3 },
+      { answerText: "11~ ?? 까지..", addPoint:4 },
+    ]
+  },
+    {
+    number:10,
+    questionText: "클린하지 않은 푸드를 일주일에 대략 얼마나 먹는가?",
+    answerOptions: [
+      { answerText: "0개~2개", addPoint:1 },
+      { answerText: "3~5개", addPoint:2 },
+      { answerText: "6~10개", addPoint:3 },
+      { answerText: "11~ ?? 까지..", addPoint:4 },
+    ]
+  },
+    {//누군가가 벤치에서 핸드폰을 하고있다 벤치를 해야하는 당신은 어떻게 하겠는가?
+    number:11,
+    questionText: "구력?",
+    answerOptions: [
+      { answerText: "0~1년", addPoint:1 },
+      { answerText: "1~3년", addPoint:2 },
+      { answerText: "3~5년", addPoint:3 },
+      { answerText: "그 이상", addPoint:4 },
+    ]
+  },
+  {
+    number:12,
+    questionText: "오늘 뭐해?",
+    answerOptions: [
+      { answerText: "나 헬스장 가려고", addPoint:1 },
+      { answerText: "등하러감", addPoint:2 },
+      { answerText: "오늘 이미 운동했는데?", addPoint:3 },
+      { answerText: "...", addPoint:4 },
+    ]
+  },
+  {
+    number:13,
+    questionText: "",
+    answerOptions: [
+      { answerText: "0개~2개", addPoint:1 },
+      { answerText: "3~5개", addPoint:2 },
+      { answerText: "6~10개", addPoint:3 },
+      { answerText: "11~ ?? 까지..", addPoint:4 },
+    ]
   },
   {
     number:8,
