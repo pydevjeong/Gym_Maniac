@@ -31,9 +31,9 @@ function MainQuiz(props){
         <div className="split">
           <div className="question">
             <h1>
-              Question {currentQuestion+1}/{questions.length}
+              {q.current[currentQuestion]?.questionText? <h1>Question {currentQuestion+1}/{questions.length}</h1>: <h1>End</h1>}
             </h1>
-            <p>{q.current[currentQuestion]?.questionText}</p>
+            <p>{q.current[currentQuestion]?.questionText }</p>
           </div>
           <div className="answer">
             {currentQuestion===questions.length ? <Link to='/result' state={{totalScore:totalScore}}> 결과 보러 가기</Link>:
