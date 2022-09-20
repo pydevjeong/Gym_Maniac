@@ -1,12 +1,14 @@
 export const questions = [
   {
     number:1,
-    questionText: "주 몇 회 운동하는가?",
+    questionText: "자극 자세",
     answerOptions: [
-      { answerText: "0~2 회", addPoint:1 },
-      { answerText: "3 회", addPoint:2 },
-      { answerText: "4~5 회", addPoint:3 },
-      { answerText: "6~7 회", addPoint:4 },
+      { answerText: "그냥 배우는 사람", addPoint:1 },
+      { answerText: "바른 자세를 익히려고 노력, 가끔 자극", addPoint:2 },
+      { answerText: "고집이 생겨버림, 주동근 자극, 야매 요리사", addPoint:3 },
+      { answerText: "쉐프", addPoint:4 },
+      { answerText: "미슐랭 1스타", addPoint:5 },
+      { answerText: "고든 램쥐", addPoint:6 },
     ]
   },
   {
@@ -25,38 +27,42 @@ export const questions = [
     answerOptions: [
       { answerText: "마름 / 뚱뚱함", addPoint:1 },
       { answerText: "표준", addPoint:2 },
-      { answerText: "근육 크기가 적당하고 체지방도 13%이하", addPoint:3 },
-      { answerText: "근육 크기 비례 체지방이 현저히 낮음", addPoint:4 },
+      { answerText: "근육이 좀 커짐, 체지방률 낮으면 갈라짐", addPoint:3 },
+      { answerText: "근육 크기 큼, 체지방이 낮음", addPoint:4 },
+      { answerText: "그냥 큼", addPoint:5 }
     ]
   },
   {
     number:4,
-    questionText: "다이어트를 성공했는가?",
+    questionText: "멘탈",
     answerOptions: [
-      { answerText: "20%", addPoint:1 },
-      { answerText: "40%", addPoint:2 },
-      { answerText: "60%", addPoint:3 },
-      { answerText: "80%", addPoint:4 },
+      { answerText: "조금만 아파도 안함, 헬스장 오기 싫어함", addPoint:1 },
+      { answerText: "헬스장은 나옴 주 3회정도? 술 약속있으면 헬스장 안감", addPoint:2 },
+      { answerText: "헬스장이 우선시 됨, 열심히 함", addPoint:3 },
+      { answerText: "운동하는거 보면 사람 죽일듯", addPoint:4 },
+      { answerText: "아무것도 생각안함(일상임)", addPoint:5 },
     ]
   },
   {
     number:5,
-    questionText: "닭을 얼마나 먹었는가?",
+    questionText: "옷",
     answerOptions: [
-      { answerText: "대략 셀수있음", addPoint:1 },
-      { answerText: "생각은 해보지만 셀수는 없음", addPoint:2 },
-      { answerText: "말이라고..", addPoint:3 },
-      { answerText: "닭이 두려움에 도망감", addPoint:4 },
+      { answerText: "헬스장 회원복", addPoint:1 },
+      { answerText: "회원복 | 적당한 운동복", addPoint:2 },
+      { answerText: "나시,머슬핏,숏팬츠.. 보기 싫음", addPoint:3 },
+      { answerText: "아무거나 입어도 괜찮음", addPoint:4 },
+      { answerText: "포징, 벗어도 됨", addPoint:5 },
     ]
   },
   {
     number:6,
-    questionText: "스쿼트 중량 (자기 체중 비례입니다)",
+    questionText: "트레이너와 관계",
     answerOptions: [
-      { answerText: "몸무게만큼", addPoint:1 },
-      { answerText: "몸무게 1.5배", addPoint:2 },
-      { answerText: "몸무게 2배", addPoint:3 },
-      { answerText: "2.5~??까지", addPoint:4 },
+      { answerText: "할까 말까 고민 ㅈㄴ하고 PT가 권유함", addPoint:1 },
+      { answerText: "PT해봄 | 운동 이상하게 해서 PT가 얘기함", addPoint:2 },
+      { answerText: "PT경험 | 독학(2년이상)해서 할줄 앎 그래도 PT가 가끔 얘기함 ", addPoint:3 },
+      { answerText: "편안", addPoint:4 },
+      { answerText: "반대", addPoint:5 },
     ]
   },
   {
@@ -69,48 +75,29 @@ export const questions = [
       { answerText: "11~ ?? 까지..", addPoint:4 },
     ]
   },  
-  {
+    {
     number:8,
-    questionText: "직장을 다니면서 주 몇회 헬스를 하는가?",
+    questionText: "장비",
     answerOptions: [
-      { answerText: "0~1회", addPoint:1 },
-      { answerText: "3~5개", addPoint:2 },
-      { answerText: "6~10개", addPoint:3 },
-      { answerText: "11~ ?? 까지..", addPoint:4 },
+      { answerText: "0개~1개", addPoint:1 },
+      { answerText: "2~3개", addPoint:2 },
+      { answerText: "4~6개", addPoint:3 },
+      { answerText: "7개 그 이상", addPoint:4 },
     ]
   },
     {
     number:9,
-    questionText: "헬스용품이 얼마나 있는가?",
-    answerOptions: [
-      { answerText: "0개~2개", addPoint:1 },
-      { answerText: "3~5개", addPoint:2 },
-      { answerText: "6~10개", addPoint:3 },
-      { answerText: "11~ ?? 까지..", addPoint:4 },
-    ]
-  },
-    {
-    number:10,
-    questionText: "클린하지 않은 푸드를 일주일에 대략 얼마나 먹는가?",
-    answerOptions: [
-      { answerText: "0개~2개", addPoint:1 },
-      { answerText: "3~5개", addPoint:2 },
-      { answerText: "6~10개", addPoint:3 },
-      { answerText: "11~ ?? 까지..", addPoint:4 },
-    ]
-  },
-    {//누군가가 벤치에서 핸드폰을 하고있다 벤치를 해야하는 당신은 어떻게 하겠는가?
-    number:11,
     questionText: "구력?",
     answerOptions: [
-      { answerText: "0~1년", addPoint:1 },
-      { answerText: "1~3년", addPoint:2 },
-      { answerText: "3~5년", addPoint:3 },
-      { answerText: "그 이상", addPoint:4 },
+      { answerText: "0~3개월", addPoint:1 },
+      { answerText: "6~1년", addPoint:2 },
+      { answerText: "2~3년", addPoint:3 },
+      { answerText: "5년", addPoint:4 },
+      { answerText: "나이의 1/3", addPoint:5 },
     ]
   },
   {
-    number:12,
+    number:10,
     questionText: "오늘 뭐해?",
     answerOptions: [
       { answerText: "나 헬스장 가려고", addPoint:1 },
@@ -120,63 +107,25 @@ export const questions = [
     ]
   },
   {
-    number:13,
-    questionText: "",
-    answerOptions: [
-      { answerText: "0개~2개", addPoint:1 },
-      { answerText: "3~5개", addPoint:2 },
-      { answerText: "6~10개", addPoint:3 },
-      { answerText: "11~ ?? 까지..", addPoint:4 },
-    ]
-  },
-  {
-    number:8,
-    questionText: "직장을 다니면서 주 몇회 헬스를 하는가?",
-    answerOptions: [
-      { answerText: "0~1회", addPoint:1 },
-      { answerText: "1~2회", addPoint:2 },
-      { answerText: "3~4회", addPoint:3 },
-      { answerText: "4~7회", addPoint:4 },
-    ]
-  },
-    {
-    number:9,
-    questionText: "헬스용품이 얼마나 있는가?",
-    answerOptions: [
-      { answerText: "0개~2개", addPoint:1 },
-      { answerText: "3~4개", addPoint:2 },
-      { answerText: "5~7개", addPoint:3 },
-      { answerText: "그 이상", addPoint:4 },
-    ]
-  },
-    {
-    number:10,
-    questionText: "영양제 개수",
-    answerOptions: [
-      { answerText: "0~3개", addPoint:1 },
-      { answerText: "4~5개", addPoint:2 },
-      { answerText: "6~7개", addPoint:3 },
-      { answerText: "그 이상", addPoint:4 },
-    ]
-  },
-    {
     number:11,
-    questionText: "구력?",
+    questionText: "비 운동인의 시선",
     answerOptions: [
-      { answerText: "0~1년", addPoint:1 },
-      { answerText: "1~3년", addPoint:2 },
-      { answerText: "3~5년", addPoint:3 },
-      { answerText: "그 이상", addPoint:4 },
+      { answerText: "그냥 평균", addPoint:1 },
+      { answerText: "운동하는건가??", addPoint:2 },
+      { answerText: "운동하는게 보임", addPoint:3 },
+      { answerText: "멋있음(몸 아니면 자기관리 능력)", addPoint:4 },
+      { answerText: "신기함", addPoint:5 },  
     ]
   },
-  {
+    {
     number:12,
-    questionText: "오늘 뭐해?",
+    questionText: "굳은살",
     answerOptions: [
-      { answerText: "나 헬스장 가려고", addPoint:1 },
-      { answerText: "등하러감", addPoint:2 },
-      { answerText: "오늘 이미 운동했는데?", addPoint:3 },
-      { answerText: "...", addPoint:4 },
+      { answerText: "無", addPoint:1 },
+      { answerText: "슬슬 생김", addPoint:2 },
+      { answerText: "까슬까슬", addPoint:3 },
+      { answerText: "굳은..살", addPoint:4 },
+      { answerText: "두꺼움", addPoint:5 },
     ]
   },
   {
@@ -189,4 +138,37 @@ export const questions = [
       { answerText: "맛있다..", addPoint:4 },
     ]
   },
+  {
+    number:14,
+    questionText: "헬스장에 갔을 때",
+    answerOptions: [
+      { answerText: "새롭고 무서움 기구를 어떻게 다룰지 모름", addPoint:1 },
+      { answerText: "어느정도 익숙함 기구 몇개는 다룰수 있음", addPoint:2 },
+      { answerText: "거의 다 할 줄 안다", addPoint:3 },
+      { answerText: "맛있게 다룬다", addPoint:4 },
+    ]
+  },
+  {
+    number:15,
+    questionText: "3대 중량",
+    answerOptions: [
+      { answerText: "의미 없음", addPoint:1 },
+      { answerText: "3배", addPoint:2 },
+      { answerText: "4배", addPoint:3 },
+      { answerText: "5배", addPoint:4 },
+      { answerText: "6배", addPoint:5 },
+      { answerText: "7배", addPoint:6 },
+    ]
+  },
+  {
+  number:16,
+  questionText: "보충제",
+  answerOptions: [
+    { answerText: "기본 프로틴", addPoint:1 },
+    { answerText: "유튜버 프로틴", addPoint:2 },
+    { answerText: "프로틴 ^ 2", addPoint:3 },
+    { answerText: "소믈리에", addPoint:4 },
+    { answerText: "그냥 먹음", addPoint:5 },
+  ]
+},
 ];

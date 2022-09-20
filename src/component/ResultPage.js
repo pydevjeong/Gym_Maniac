@@ -14,7 +14,11 @@ function ResultPage(){
   return(
       <div className={style.skele}>
         <h1>당신의 점수는? {total}</h1>
-        <p>6~9점 : 응애!</p> <p>10~20점 입문자</p><p>20~32 초급자</p> <p>33~45중급자</p> <p> 45~52 헬창</p>
+        <p>16~20점 : 입문</p> 
+        <p>21~35점 초급자</p>
+        <p>36~54 중급자</p>
+        <p>55~69중상~상급자</p>
+        <p>70~76 ++상~엘리트</p>
         <div className={style.goHome}>
           <Link className={style.linked} to='/'>처음으로 돌아가기</Link>
         </div>
