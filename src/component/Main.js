@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 function Main(props) {
   return (
     <div>
+      <p>[모바일 개발중]</p>
       <div className={styles.quiz_title}>
         <span>당신은 헬창입니까??</span>
       </div>
