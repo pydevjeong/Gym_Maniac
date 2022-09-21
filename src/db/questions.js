@@ -3,7 +3,7 @@ export const questions = [
     number:1,
     questionText: "자극 자세",
     answerOptions: [
-      { answerText: "그냥 배우는 사람", addPoint:1 },
+      { answerText: "그냥 배우는 사람(처음,안해봄)", addPoint:1 },
       { answerText: "바른 자세를 익히려고 노력, 가끔 자극", addPoint:2 },
       { answerText: "고집이 생겨버림, 주동근 자극, 야매 요리사", addPoint:3 },
       { answerText: "쉐프", addPoint:4 },
@@ -36,7 +36,7 @@ export const questions = [
     number:4,
     questionText: "멘탈",
     answerOptions: [
-      { answerText: "조금만 아파도 안함, 헬스장 오기 싫어함", addPoint:1 },
+      { answerText: "조금만 아파도 안함, 헬스장 가기 싫어함", addPoint:1 },
       { answerText: "헬스장은 나옴 주 3회정도? 술 약속있으면 헬스장 안감", addPoint:2 },
       { answerText: "헬스장이 우선시 됨, 열심히 함", addPoint:3 },
       { answerText: "운동하는거 보면 사람 죽일듯", addPoint:4 },
@@ -48,26 +48,26 @@ export const questions = [
     questionText: "옷",
     answerOptions: [
       { answerText: "헬스장 회원복", addPoint:1 },
-      { answerText: "회원복 | 적당한 운동복", addPoint:2 },
-      { answerText: "나시,머슬핏,숏팬츠.. 보기 싫음", addPoint:3 },
-      { answerText: "아무거나 입어도 괜찮음", addPoint:4 },
+      { answerText: "회원복 | 나이키 운동복", addPoint:2 },
+      { answerText: "몸이 애매함 운동한 티가 조금 난다,언더아머 | 가끔 나시,미국팬츠", addPoint:3 },
+      { answerText: "몸이 좋아서 아무거나 입어도 괜찮음", addPoint:4 },
       { answerText: "포징, 벗어도 됨", addPoint:5 },
     ]
   },
   {
     number:6,
-    questionText: "트레이너와 관계",
+    questionText: "당신과 트레이너와의 관계",
     answerOptions: [
-      { answerText: "할까 말까 고민 ㅈㄴ하고 PT가 권유함", addPoint:1 },
-      { answerText: "PT해봄 | 운동 이상하게 해서 PT가 얘기함", addPoint:2 },
-      { answerText: "PT경험 | 독학(2년이상)해서 할줄 앎 그래도 PT가 가끔 얘기함 ", addPoint:3 },
-      { answerText: "편안", addPoint:4 },
-      { answerText: "반대", addPoint:5 },
+      { answerText: "트레이너가 다가오면 내 자세가 이상한가? 생각 | PT권유", addPoint:1 },
+      { answerText: "트레이너가 아직까진 포기안함, 종종 다가옴", addPoint:2 },
+      { answerText: "독학(2년이상)해서 할줄 앎 그래도 PT가 가끔 얘기함 ", addPoint:3 },
+      { answerText: "트레이너보다 상위 또는 동급 친해지면 같이 운동함", addPoint:4 },
+      { answerText: "반대-트레이너가 배우려고 함", addPoint:5 },
     ]
   },
   {
     number:7,
-    questionText: "턱걸이 갯수(등으로 당기는 정확한 자세 기준 )",
+    questionText: "노 장비 턱걸이 갯수(등으로 당기는 정확한 자세 기준 )",
     answerOptions: [
       { answerText: "0개~2개", addPoint:1 },
       { answerText: "3~5개", addPoint:2 },
@@ -103,7 +103,7 @@ export const questions = [
       { answerText: "나 헬스장 가려고", addPoint:1 },
       { answerText: "등하러감", addPoint:2 },
       { answerText: "오늘 이미 운동했는데?", addPoint:3 },
-      { answerText: "...", addPoint:4 },
+      { answerText: "항상 하던거", addPoint:4 },
     ]
   },
   {
@@ -122,7 +122,7 @@ export const questions = [
     questionText: "굳은살",
     answerOptions: [
       { answerText: "無", addPoint:1 },
-      { answerText: "슬슬 생김", addPoint:2 },
+      { answerText: "슬슬 생김(말랑말랑)", addPoint:2 },
       { answerText: "까슬까슬", addPoint:3 },
       { answerText: "굳은..살", addPoint:4 },
       { answerText: "두꺼움", addPoint:5 },
@@ -132,10 +132,10 @@ export const questions = [
     number:13,
     questionText: "운동 유튜브 시청",
     answerOptions: [
-      { answerText: "그런거 왜봄", addPoint:1 },
-      { answerText: "하루에 하나는 본다", addPoint:2 },
-      { answerText: "운동정보 자세하게 찾아봄", addPoint:3 },
-      { answerText: "맛있다..", addPoint:4 },
+      { answerText: "지피티", addPoint:1 },
+      { answerText: "장성엽, 김강민선수(운동영상)", addPoint:2 },
+      { answerText: "프로+외국물", addPoint:3 },
+      { answerText: "올림피아", addPoint:4 },
     ]
   },
   {
@@ -150,9 +150,9 @@ export const questions = [
   },
   {
     number:15,
-    questionText: "3대 중량",
+    questionText: "몸무게 당 3대 중량",
     answerOptions: [
-      { answerText: "의미 없음", addPoint:1 },
+      { answerText: "의미 없음(너무 낮음 2배이하)", addPoint:1 },
       { answerText: "3배", addPoint:2 },
       { answerText: "4배", addPoint:3 },
       { answerText: "5배", addPoint:4 },
@@ -165,10 +165,10 @@ export const questions = [
   questionText: "보충제",
   answerOptions: [
     { answerText: "기본 프로틴", addPoint:1 },
-    { answerText: "유튜버 프로틴", addPoint:2 },
-    { answerText: "프로틴 ^ 2", addPoint:3 },
+    { answerText: "프로틴+BCAA", addPoint:2 },
+    { answerText: "프로틴2종류+단일 아미노산+.등등", addPoint:3 },
     { answerText: "소믈리에", addPoint:4 },
-    { answerText: "그냥 먹음", addPoint:5 },
+    { answerText: "정해져 있음,협찬", addPoint:5 },
   ]
 },
 ];
