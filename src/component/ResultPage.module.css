@@ -42,3 +42,22 @@
   -webkit-transition: all 0.1s linear;
   transition: all 0.1s linear;
 }
+
+.linked2{
+  font-size: 30px;
+  color: rgb(36, 199, 221);
+  text-decoration: none;
+  margin-left:20px;
+}
+.linked2:hover{
+  color: crimson;
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+   -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+       transform: scale(1.05);  
+}
+.linked2 {
+  -webkit-transition: all 0.1s linear;
+  transition: all 0.1s linear;
+}

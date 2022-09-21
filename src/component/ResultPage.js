@@ -20,7 +20,8 @@ function ResultPage(){
         <p>55~69중상~상급자</p>
         <p>70~76 ++상~엘리트</p>
         <div className={style.goHome}>
-          <Link className={style.linked} to='/'>처음으로 돌아가기</Link>
+          <Link className={style.linked} to='/'>처음으로 돌아가기 </Link>
+          <Link className={style.linked2} to='/comment'>코멘트</Link>
         </div>
       </div>
   )

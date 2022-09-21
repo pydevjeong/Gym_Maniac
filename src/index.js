@@ -8,6 +8,7 @@ import Main from './component/Main';
 import ErrorPage from './error-page';
 import MainQuiz from './component/MainQuiz';
 import ResultPage from './component/ResultPage';
+import CommentPage from './component/CommentPage';
 
 
 const router=createBrowserRouter([
@@ -17,13 +18,18 @@ const router=createBrowserRouter([
     errorElement:<ErrorPage/>
   },
   {
-    path:"mainQuiz",
+    path:"/mainQuiz",
     element:<MainQuiz/>,
     errorElement:<ErrorPage/>
   },
   {
-    path:"result",
+    path:"/result",
     element:<ResultPage/>,
+    errorElement:<ErrorPage/>
+  },
+  {
+    path:"/comment",
+    element:<CommentPage/>,
     errorElement:<ErrorPage/>
   },
 ])
