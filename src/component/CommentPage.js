@@ -21,7 +21,7 @@ function ComponentPage(){
   console.log(comment);
   return(
     <div>
-      <h1>자유롭게 코멘트를 남겨주세요</h1>
+      <h1>자유롭게 코멘트를 남겨주세요 ??</h1>
       <p>큰 도움이 됩니다</p>
       <div>
         <h2>아래에 코멘트를 남겨주세요</h2>
