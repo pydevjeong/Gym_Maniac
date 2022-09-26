@@ -41,6 +41,10 @@
 }
 .linkBox{
   display:flex;
+  width: 6rem;
+  height: auto;
+  margin: 10px 0 0 0;
+  align-self: center;
   justify-content: center;
   padding: 5px;
   background: #36383d;  /* fallback for old browsers */
@@ -51,6 +55,6 @@
 }
 .comLink{
   font-size: 1.2rem;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   text-decoration: none;
 }

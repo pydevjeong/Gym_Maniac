@@ -4,13 +4,12 @@ import { Link } from "react-router-dom";
 import styles from './CommentPage.module.css'
 
 function ComponentPage(){
-  let [username]=useState('unknown')
   let [comment,setComment]=useState('')
   let [checkSpace,setCheckSpace]=useState(false)
 
   const comInput=(e)=>{
     if(e===null){
-      setCheckSpace(true)
+      setCheckSpace(false)
     }
     setComment(e.target.value)
   }
@@ -32,7 +31,7 @@ function ComponentPage(){
         <Link className={styles.comLink} to='/'>Home</Link>
       </div>
       <div>
-        <p>qdoqwndqwnidin</p>
+        <p>{comment}</p>
       </div>
     </div>
   )

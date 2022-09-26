@@ -32,13 +32,28 @@
 }
 .name{
   font-size: 3rem;
-    color: rgb(59, 19, 204);
-    font-weight: bold;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    font-family: 'Black Han Sans', sans-serif;
-    margin: 12;
+  color: rgb(59, 19, 204);
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-family: 'Black Han Sans', sans-serif;
+}
+.addNickname{
+  font-size: 1rem;
+  display: flex;
+  margin-bottom: 10px;
+}
+.addNickname label{
+  font-weight: bold;
+  margin-right: 15px;
+}
+.addNickname input{
+  border: #36383d solid 1px;
+  border-radius: 5px;
+}
+.noNickName{
+  display: none;
 }
 .linkBox{
   display: flex;

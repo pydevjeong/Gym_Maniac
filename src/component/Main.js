@@ -17,6 +17,11 @@ function Main(props) {
               <div>
                 <p className={styles.name}>Gym-Maniac</p>
               </div>
+              <div className={styles.addNickname}>
+                <label htmlFor="">닉네임:</label>
+                <input type="text" />
+              </div>
+              <span className={styles.noNickName}>qwd{}</span>
               <div className={styles.linkBox}>
                 <Link className={styles.linked} to="/mainQuiz">시작하기</Link>
               </div>
