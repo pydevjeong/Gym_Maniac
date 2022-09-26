@@ -31,7 +31,7 @@ function MainQuiz(props){
         <div className="split">
           <div className="question">
             <h1>
-              {q.current[currentQuestion]?.questionText? <h1>Question {currentQuestion+1}/{questions.length}</h1>: <h1>End</h1>}
+              {q.current[currentQuestion]?.questionText? <p>Question {currentQuestion+1}/{questions.length}</p>: <p>End</p>}
             </h1>
             <p>{q.current[currentQuestion]?.questionText }</p>
           </div>

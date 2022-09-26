@@ -1,5 +1,7 @@
 import React from "react";
 import { useState } from "react";
+import { Link } from "react-router-dom";
+import styles from './CommentPage.module.css'
 
 function ComponentPage(){
   let [username]=useState('unknown')
@@ -20,15 +22,17 @@ function ComponentPage(){
   }
   console.log(comment);
   return(
-    <div>
-      <h1>자유롭게 코멘트를 남겨주세요 ??</h1>
-      <p>큰 도움이 됩니다</p>
-      <div>
-        <h2>아래에 코멘트를 남겨주세요</h2>
-        <input type="text" className="commnetInput" placeholder="댓글을 달아주세요" onChange={comInput}/>
+    <div className={styles.mainContainer}>
+      <h2>자유롭게 코멘트를 남겨주세요</h2>
+      <div className={styles.commentContainer}>
+        <input type="text" className={styles.commentInput} placeholder="" onChange={comInput}/>
+      {!checkSpace ? <input type="submit" className={styles.submitBtn} value="Enter" onClick={btnSubmit}/>: <p>댓글을 적고 눌러주세요</p>}
+      </div>
+      <div className={styles.linkBox}>
+        <Link className={styles.comLink} to='/'>Home</Link>
       </div>
       <div>
-      {!checkSpace ? <input type="submit" value="전송하기" onClick={btnSubmit}/>: <p>댓글을 적고 눌러주세요</p>}
+        <p>qdoqwndqwnidin</p>
       </div>
     </div>
   )
