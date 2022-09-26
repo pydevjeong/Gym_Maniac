@@ -1,8 +1,12 @@
-import React from 'react';
+import React, { useState } from 'react';
 import styles from './Main.module.css'
 import {Image } from 'react-bootstrap'
 import { Link } from 'react-router-dom';
 function Main(props) {
+  const [nickName,setNickName]=useState('')
+  const nicknameInput=(e)=>{
+    setNickName(e.target.value)
+  }
   return (
     <div>
       <p>[모바일 개발중]</p>
@@ -19,11 +23,10 @@ function Main(props) {
               </div>
               <div className={styles.addNickname}>
                 <label htmlFor="">닉네임:</label>
-                <input type="text" />
+                <input type="text" onChange={nicknameInput}/>
               </div>
-              <span className={styles.noNickName}>qwd{}</span>
               <div className={styles.linkBox}>
-                <Link className={styles.linked} to="/mainQuiz">시작하기</Link>
+                {nickName.length===0 ?<span style={{color:"pink" , fontSize:"30px"}}>닉네임을 써주세요</span> :<Link className={styles.linked} to="/mainQuiz" state={{nickName}}>시작하기</Link>}
               </div>
           </div>
         </div>

@@ -9,6 +9,7 @@ import style from './ResultPage.module.css'
 
 function ResultPage(){
   const temp=useLocation().state.totalScore
+  const nickName=useLocation().state.nickname
   const total=temp.current
 
   return(
@@ -21,7 +22,7 @@ function ResultPage(){
         <p>70~76 ++상~엘리트</p>
         <div className={style.goHome}>
           <Link className={style.linked} to='/'>처음으로 돌아가기 </Link>
-          <Link className={style.linked2} to='/comment'>코멘트</Link>
+          <Link className={style.linked2} to='/comment' state={{nickName:nickName}}>코멘트</Link>
         </div>
       </div>
   )

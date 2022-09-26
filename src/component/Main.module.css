@@ -52,9 +52,6 @@
   border: #36383d solid 1px;
   border-radius: 5px;
 }
-.noNickName{
-  display: none;
-}
 .linkBox{
   display: flex;
   background: #36383d;  /* fallback for old browsers */
