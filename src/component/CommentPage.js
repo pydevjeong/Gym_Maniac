@@ -3,7 +3,7 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import styles from './CommentPage.module.css'
 import { useLocation } from "react-router-dom";
-
+// More functional react code
 function ComponentPage(props){
   const nickName=useLocation().state.nickName
   const [comment,setComment]=useState('')
