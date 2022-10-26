@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import styles from './Main.module.css'
 import {Image } from 'react-bootstrap'
 import { Link } from 'react-router-dom';
-function Main(props) {
+function Main() {
   const [nickName,setNickName]=useState('')
   const nicknameInput=(e)=>{
     setNickName(e.target.value)

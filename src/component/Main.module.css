@@ -81,21 +81,37 @@
 }
 
 .information{
-  display: block;
-  position: absolute;
-  bottom:0;
+  display: flex;
   margin: 2%;
   font-family: 'Black Han Sans', sans-serif;
 }
 .information h2{
   text-shadow: 3px 3px 3px rgb(241, 190, 190);
+  display: flex;
+  position: absolute;
+  bottom:3%;
 }
 .emailText{
+  display: flex;
   position: absolute;
+  left: 0;
   bottom:0;
-  left:0;
+  margin-left: 2.3%;
+}
+.emailImg{
+  width: 40px;
+  display: flex;
+  position: absolute;
+  left: 215px;
+  bottom:0;
 }
 
-.emailImg{
-  width: 6%;
+@media screen and (min-width:920px) {
+  .emailImg{
+    width: 45px;
+    display: flex;
+    position: absolute;
+    left: 230px;
+    bottom:0;
+  }
 }

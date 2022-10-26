@@ -56,32 +56,25 @@
   font-size:35%;
   display: flex;
 }
+}
 
-@media screen and (max-width:450px) {
-  .question p {
+@media screen and (max-width:912px){
+  .question h1 {
     font-size: 150%;
+  }
+  .question p:last-of-type{
+    font-size:200%
   }
   .answer{
     display: grid;
-
   }
   .ansBtn{
     display: flex;
     align-items:center;
     justify-content: center;
   }
-  .ansBtn p{
-    font-size: 100%;
-  }
-}
-}
-
-@media screen and (max-width:912px){
-  .question p {
-    font-size: 120%;
-  }
 
   .ansBtn p{
-    font-size: 55%;
+    font-size: 140%;
   }
 }
