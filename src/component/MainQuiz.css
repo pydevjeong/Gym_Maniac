@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
-
+@media screen and (max-width:1920px) {
 #container{
   margin: 0;
   padding: 0;
@@ -57,7 +57,7 @@
   display: flex;
 }
 
-@media screen and (max-width:412px) {
+@media screen and (max-width:450px) {
   .question p {
     font-size: 150%;
   }
@@ -74,13 +74,14 @@
     font-size: 100%;
   }
 }
+}
 
-@media screen and (min-width:912px){
+@media screen and (max-width:912px){
   .question p {
     font-size: 120%;
   }
 
   .ansBtn p{
-    font-size: 100%;
+    font-size: 55%;
   }
 }

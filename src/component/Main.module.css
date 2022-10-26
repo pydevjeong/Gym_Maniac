@@ -91,7 +91,9 @@
   text-shadow: 3px 3px 3px rgb(241, 190, 190);
 }
 .emailText{
-  
+  position: absolute;
+  bottom:0;
+  left:0;
 }
 
 .emailImg{
