@@ -33,8 +33,10 @@
   justify-content: center;
   align-items: center;
   display: flex;
+  font-size: 90%;
   margin: 12;
 }
+
 .answer{
   font-weight: bold;
   justify-content: center;
@@ -51,6 +53,34 @@
 }
 .ansBtn p{
   margin: 10px;
-  font-size:1.2rem;
+  font-size:35%;
   display: flex;
+}
+
+@media screen and (max-width:412px) {
+  .question p {
+    font-size: 150%;
+  }
+  .answer{
+    display: grid;
+
+  }
+  .ansBtn{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+  }
+  .ansBtn p{
+    font-size: 100%;
+  }
+}
+
+@media screen and (min-width:912px){
+  .question p {
+    font-size: 120%;
+  }
+
+  .ansBtn p{
+    font-size: 100%;
+  }
 }

@@ -8,7 +8,7 @@ function ComponentPage(props){
   const nickName=useLocation().state.nickName
   const [comment,setComment]=useState('')
   const [commentArr,setCommentArr]=useState([
-    {id:'누군가',value:'ㅋㅋ'}
+    {id:'임시유저',value:'임시 댓글 입니다'}
   ])
   const [checkSpace,setCheckSpace]=useState(false)
 
@@ -36,7 +36,7 @@ function ComponentPage(props){
       <h2>자유롭게 코멘트를 남겨주세요</h2>
       <div className={styles.commentContainer}>
         <textarea placeholder="입력후 Enter누르세요" rows={2} maxLength={40} type="text" className={styles.commentInput}  onKeyUp={comInput} onKeyPress={comArrInput}/>
-  
+        <button className={styles.submitBtn}>Enter</button>
       </div>
       <div className={styles.linkBox}>
         <Link className={styles.comLink} to='/'>Home</Link>

@@ -152,7 +152,7 @@ export const questions = [
     number:15,
     questionText: "몸무게 당 3대 중량",
     answerOptions: [
-      { answerText: "의미 없음(너무 낮음 2배이하)", addPoint:1 },
+      { answerText: "2배", addPoint:1 },
       { answerText: "3배", addPoint:2 },
       { answerText: "4배", addPoint:3 },
       { answerText: "5배", addPoint:4 },

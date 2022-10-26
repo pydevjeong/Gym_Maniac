@@ -22,6 +22,10 @@ function MainQuiz(props){
       setCurrentQuestion(nextQuestion);
     }
   };
+  
+  if(currentQuestion===14){
+    console.log(q);
+  }
   return(
   <div className="container-fluid text-center" id="container">
       <h1>점수가 합산되어서 결과가 나옵니다</h1>
